@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // "rootDir": ["src", "test"],
+    "outDir": "./dist",
+    "module": "node16",
+    "target": "esnext",
+    "moduleResolution": "node16",
+    "types": [],
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": false,
+    "strict": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
+  "include": ["src", "test"]
+}
